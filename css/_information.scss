@@ -1,0 +1,46 @@
+.contact-information{
+
+    background-color: $secundary;
+    position: relative;
+    top: -22px; 
+    padding: 9em 6em;
+    color: rgb(102, 102, 102);
+    border-bottom-left-radius: 100px;
+    margin: auto;
+    text-align: center;
+    font-size: .8rem;
+
+   
+
+    h1{
+        font-size: 1.2rem;
+        font-weight: 500;
+
+        @include for-desktop-up{
+            font-size: 1.5rem;
+        }
+        
+
+    }
+    h2 {
+        font-size: 1.1rem;
+        font-weight: 500;
+        margin: 1em;
+
+        @include for-desktop-up{
+            font-size: 1.4rem;
+        }
+    }
+
+    h3{
+        font-size: .9rem;
+        margin: .5em;
+
+        @include for-desktop-up{
+            font-size: 1rem;
+        }
+    }
+    
+
+}
+

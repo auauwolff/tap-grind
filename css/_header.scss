@@ -1,0 +1,27 @@
+header
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 80px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+        .logo{
+                cursor: pointer;
+                width: 23%;
+
+                @include for-tablet-landscape-up{
+                        width: 13%;
+                    }
+
+                    
+                    @include for-desktop-up{
+                        width: 8%;
+                    }
+        }
+}
+ 

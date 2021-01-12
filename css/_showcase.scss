@@ -1,0 +1,45 @@
+.showcase{
+  position: relative;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  color: #fff;
+  transition: 0.5s;
+  z-index: 2;
+
+    video{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.8;
+
+          @include for-desktop-up{
+            object-position: 50% 35%;
+        }
+    }
+}
+
+.showcase.active
+{
+  right: 220px;
+}
+
+// JUST IN CASE 
+// .overlay
+// {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   background: whitesmoke;
+//   mix-blend-mode: overlay;
+// }
