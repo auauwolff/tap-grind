@@ -1,0 +1,47 @@
+.base{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 5em 0;
+    
+    img{
+        width: 50%;
+
+        @include for-desktop-up{
+            width: 25%;
+        }
+    }
+
+    .thank-you{
+        margin: 3em 0;
+        font-size: 1em;
+        color: rgb(102, 102, 102);
+
+        p{
+            font-size: 1.2em;
+        }
+
+        h2{
+            margin: .5em 0;
+        }
+
+        a{
+            margin-top: 1em;
+            
+        }
+    }
+
+
+    .arrow{
+        width: 10%;
+
+        @include for-desktop-up{
+            width: 5%;
+        }
+    }
+    
+}
+

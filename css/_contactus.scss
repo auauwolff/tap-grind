@@ -135,7 +135,7 @@ input, textarea{
             .input-field{
                 margin-bottom: .5em;
                 background: transparent;
-                color: $primary;
+                color: rgb(102, 102, 102);
                 padding: 5px 5px 5px 8px;
                 border: 2px solid $primary;
                 border-radius: 25px;
@@ -158,7 +158,7 @@ input, textarea{
                 transition: 0.3s;
                 outline: none;
                 background: transparent;
-                color: black;
+                color: rgb(102, 102, 102);;
                 border: 2px solid $primary;
                 resize: none;
                 overflow-y: auto;
