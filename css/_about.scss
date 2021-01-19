@@ -4,11 +4,17 @@
     background-color: $primary;
     padding: 4em 0 2em;
     border-top-left-radius: 40px;
-    transform: skewY(-2deg);
+    transform: skewy(-2deg);
     color: white;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
+    transform: translateZ(0);
+    -webkit-font-smoothing: subpixel-antialiased;
+    
 
+   
     ul{
-        transform: skewY(2deg);
+       transform: skewY(0deg);
         padding-top: 3em;
         
 
