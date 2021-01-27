@@ -1,12 +1,58 @@
-@include for-desktop-up {    
-    .menu-tpg{
-        background-image: url(/images/Menu/Hero.jpg);
-        background-size: cover;
-        background-attachment: fixed;
-        background-blend-mode: saturation;
+// @include for-desktop-up {    
+//     .menu-tpg{
+//         background-image: url(/images/Menu/Hero.jpg);
+//         background-size: cover;
+//         background-attachment: fixed;
+//         background-blend-mode: saturation;
         
-    }
-} 
+//     }
+// } 
+
+
+
+.showcase-menu{
+    position: relative;
+    right: 0;
+    width: 100%;
+    min-height: 50vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    //background: #111;
+    background-image: url(/images/Menu/Hero.jpg);
+    background-size: cover;
+    background-blend-mode: saturation;
+    color: #fff;
+    transition: 0.5s;
+    z-index: 2;
+
+            @include for-desktop-up {    
+                min-height: 260vh;
+                background-attachment: fixed;
+                
+            }
+  
+
+    //   .menu-hero{
+      
+    //     width: 100%;
+    //     -webkit-filter: brightness(80%);
+    //      filter:brightness(80%);
+
+    //      @include for-desktop-up{
+    //         width: 50%;
+    //         opacity: 1%;
+    //     }
+       
+    // }
+  
+  }
+  
+  .showcase-menu.active
+  {
+    right: 220px;
+  }
 
 
 .menu-header {
@@ -30,18 +76,7 @@
     //     z-index: 10000;
     // }
    
-    .menu-hero{
-      
-        width: 100%;
-        -webkit-filter: brightness(80%);
-         filter:brightness(80%);
-
-         @include for-desktop-up{
-            width: 50%;
-            opacity: 1%;
-        }
-       
-    }
+   
    
 
     @include for-desktop-up{
@@ -76,7 +111,14 @@
             @include for-desktop-up {    
                 width: 60%;
                 margin: 0px auto 50px auto;
-                background-color: white;
+                background: white;
+                background-size: cover;
+                position: absolute;
+                right: 20%;
+                top: 20%;
+                z-index: 100;
+                height: 80%;
+                
             }        
   }
 
@@ -127,7 +169,7 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-in-out;
-    //background-color: rgb(255, 217, 60);
+    background-color:white;
     border-radius: 2px;
     text-align: left;
 
@@ -163,7 +205,13 @@
             position: relative;
             font-size: .6rem;
             color: grey;
-            top: -10px;
+            padding-right: 100px;
+
+            @include for-tablet-landscape-up {    
+                
+                padding: 0;
+                  
+          }
         }
 
                 @include for-tablet-landscape-up {    
@@ -171,6 +219,7 @@
                       justify-content: space-evenly;
                       flex-direction: row;
                       margin: 00px 0 0px;
+                    
 
                       li{
                         width: 40%;
@@ -250,7 +299,8 @@
     font-size: .7rem;
     text-align: center;
     color: grey;
-    margin-top: 10px;
+    padding-top: 10px;
+    background-color: white;
 }
 
 .anim {

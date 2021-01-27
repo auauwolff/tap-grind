@@ -27,3 +27,36 @@
 {
   color: $primary;
 }
+
+
+//MENU PAGE TOGGLE
+
+.menupg
+{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 220px;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menupg ul
+{
+  position: relative;
+}
+.menupg ul li
+{
+  list-style: none;
+}
+.menupg ul li a
+{
+  text-decoration: none;
+  font-size: 20px;
+  color: #111;
+}
+.menupg ul li a:hover
+{
+  color: $primary;
+}

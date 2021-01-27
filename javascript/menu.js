@@ -16,3 +16,14 @@ for (var i = 0; i < menus.length; i++){
         }
     }
 }
+
+
+// Menu Header toggle
+
+const menuToggle = document.querySelector('.toggle');
+            const showcase = document.querySelector('.showcase-menu');
+
+            menuToggle.addEventListener('click', () => {
+              menuToggle.classList.toggle('active');
+              showcase.classList.toggle('active');
+            })
