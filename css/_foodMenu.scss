@@ -188,7 +188,7 @@
         li{
             color: grey;
             font-weight: 500;
-            margin-bottom: -10px;
+            padding-bottom: 15px;
 
                     @include for-tablet-landscape-up{
                          margin-bottom: 30px;       
@@ -201,12 +201,9 @@
         }
 
         .special-message{
-            margin: 30px;
-            padding-left: 65px;
-
-            @include for-tablet-landscape-up{
-                padding-left: 0px;      
-           }
+            margin: 0 auto;
+            font-size: .9rem;
+            padding: 1.5em 0 1em;
         }
 
         .menu-description{
@@ -283,10 +280,10 @@
 
     .price{
         position: relative;
-        top: -20px;
+        top: -55px;
         left: 85%;
         color: $third;
-        margin: -20px 0 20px;
+        
         
 
                 @include for-tablet-landscape-up {    
