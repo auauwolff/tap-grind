@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="icon" type="image/png"  href="images/Icons/logo.svg" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Catering - Tap & Grind</title>
+</head>
+<body>
+    <section class="showcase-catering">
+        <header>
+            <img src="images/Icons/Group 43.png" alt="logo" class="logo stagger1">
+           <div class="toggle stagger1"></div>
+         </header>   
+
+         <h1 class="side1">Let us take care of your catering needs!</h1>
+      </section>
+
+      <div class="menupg">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="catering.html">Catering</a></li>
+        </ul>
+      </div>
+
+
+      <section class="catering">
+        <div class="foodcarousel transition2">  
+            <img src="images/Catering/food1.jpg" alt="food1">
+            <img src="images/Catering/food2.jpg" alt="food2">
+            <img src="images/Catering/food3.jpg" alt="food3">
+            <img src="images/Catering/food4.jpg" alt="food4">
+        </div>
+
+        <h2>We offer a range of catering options starting from $10 per head. <br><br>Enquire below:
+        </h2>
+    </section>
+
+    <div class="modal-form transition3">
+        <div class="modal">
+          <form class= "contact-form catering-form" name= "contact-f" autocomplete="off" method="POST" action="formSubmited.html" data-netlify="true">
+            <div class="input-container">
+                <input type="text" class="input-field input" id="fname" name="name">
+                <label for="fname">Name</label>
+                <span>Name</span>
+            </div>
+            <div class="input-container">
+                <input type="tel"  class="input-field mobile input" id="mobile" name="mobile" >
+                <label for="mmobile">Mobile</label>
+                <span>Mobile</span>
+            </div>
+            <div class="input-container">
+            <input type="email" class="input-field input" id="email" name="email">
+            <label for="email">Email</label>
+            <span>Email</span>
+          </div>
+          <div class="input-container">
+            <textarea name="message" class="text-field input" id="text" ></textarea>
+            <label for="message">Order</label>
+            <span>Order</span>
+          </div>
+            <input type="submit" value="Send" class="btn">
+          </form>
+        </div>
+      </div>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js" integrity="sha512-wK2NuxEyN/6s53M8G7c6cRUXvkeV8Uh5duYS06pAdLq4ukc72errSIyyGQGYtzWEzvVGzGSWg8l79e0VkTJYPw==" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+      <script type="text/javascript" src="javascript/catering.js"></script>
+     
+    
+</body>
+</html>

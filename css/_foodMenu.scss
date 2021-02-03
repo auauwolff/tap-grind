@@ -21,7 +21,8 @@
     align-items: center;
     //background: #111;
     background-image: url(/images/Menu/Hero.jpg);
-    background-size: cover;
+    background-size:cover;
+    background-position: 100%;
     background-blend-mode: saturation;
     color: #fff;
     transition: 0.5s;
@@ -288,7 +289,7 @@
 
                 @include for-tablet-landscape-up {    
                     left: -10px;
-                    top: 20px;
+                    top: -5px;
                 }
 
                 @include for-phone-only {    
