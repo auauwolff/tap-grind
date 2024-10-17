@@ -33,7 +33,7 @@ html {
 }
 @media (min-width: 1000px) {
   .showcase video {
-    object-position: 50% 35%;
+    object-position: 50% 45%;
   }
 }
 .showcase.active {
